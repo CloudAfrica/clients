@@ -14,9 +14,8 @@ This respository contains auto-generated client wrappers, of various languages f
 
 ## Generating a wrapper
 
-Install go install the [openapi-generator-cli](https://openapi-generator.tech/docs/installation)
+Install the [openapi-generator-cli](https://openapi-generator.tech/docs/installation) command line utility.
 Generate the wrappers by running `gen.sh`
-
 
 
 ## Development
