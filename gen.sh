@@ -1,3 +1,3 @@
 
-curl http://localhost:3000/swagger.json > openapi.json 
-/home/andre/.asdf/installs/golang/1.19.2/packages/bin/oapi-codegen --package cloudafrica openapi.json  > cloudafrica.gen.go
+curl http://localhost:3000/openapi.json > openapi.json 
+openapi-generator-cli generate -i openapi.json -g go -o ./golang --additional-properties packageName="cloudafrica"
