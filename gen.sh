@@ -1,3 +1,4 @@
 
 curl http://localhost:3000/openapi.json > openapi.json 
-openapi-generator-cli generate -i openapi.json -g go -o ./golang --additional-properties packageName="cloudafrica"
+npx openapi-generator-cli generate -i openapi.json -g go -o ./golang --additional-properties packageName="cloudafrica"
+cp -r golang_custom/* golang/
